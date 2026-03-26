@@ -48,14 +48,14 @@ tabAutomation:CreateToggle({
       if running then
 
          local claim = ReplicatedStorage
-            :WaitForChild("Packages")
+            :WaitForChild("Content")
             :WaitForChild("_Index")
             :WaitForChild("sleitnick_knit@1.7.0")
             :WaitForChild("knit")
-            :WaitForChild("QuestService")
-            :WaitForChild("ChallengeService")
+            :WaitForChild("Services")
+            :WaitForChild("GameService")
             :WaitForChild("RF")
-            :WaitForChild("ClaimAll")
+            :WaitForChild("AwardDailyReward")
 
          task.spawn(function()
 
